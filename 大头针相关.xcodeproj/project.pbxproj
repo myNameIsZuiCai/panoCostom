@@ -15,6 +15,8 @@
 		7E12B5D41D3F26A800F016E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E12B5D21D3F26A800F016E1 /* LaunchScreen.storyboard */; };
 		7E12B5DF1D3F26A800F016E1 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E12B5DE1D3F26A800F016E1 /* _____Tests.m */; };
 		7E12B5EA1D3F26A800F016E1 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E12B5E91D3F26A800F016E1 /* _____UITests.m */; };
+		7E12B5F81D3F298400F016E1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E12B5F71D3F298400F016E1 /* MapKit.framework */; };
+		7ED8126A1D406F5A0056CA37 /* myAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED812691D406F5A0056CA37 /* myAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		7E12B5E51D3F26A800F016E1 /* 大头针相关UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "大头针相关UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E12B5E91D3F26A800F016E1 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		7E12B5EB1D3F26A800F016E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E12B5F71D3F298400F016E1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		7ED812681D406F5A0056CA37 /* myAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myAnimation.h; sourceTree = "<group>"; };
+		7ED812691D406F5A0056CA37 /* myAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myAnimation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E12B5F81D3F298400F016E1 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +87,7 @@
 		7E12B5B81D3F26A800F016E1 = {
 			isa = PBXGroup;
 			children = (
+				7E12B5F71D3F298400F016E1 /* MapKit.framework */,
 				7E12B5C31D3F26A800F016E1 /* 大头针相关 */,
 				7E12B5DD1D3F26A800F016E1 /* 大头针相关Tests */,
 				7E12B5E81D3F26A800F016E1 /* 大头针相关UITests */,
@@ -105,6 +112,8 @@
 				7E12B5C81D3F26A800F016E1 /* AppDelegate.m */,
 				7E12B5CA1D3F26A800F016E1 /* ViewController.h */,
 				7E12B5CB1D3F26A800F016E1 /* ViewController.m */,
+				7ED812681D406F5A0056CA37 /* myAnimation.h */,
+				7ED812691D406F5A0056CA37 /* myAnimation.m */,
 				7E12B5CD1D3F26A800F016E1 /* Main.storyboard */,
 				7E12B5D01D3F26A800F016E1 /* Assets.xcassets */,
 				7E12B5D21D3F26A800F016E1 /* LaunchScreen.storyboard */,
@@ -272,6 +281,7 @@
 			files = (
 				7E12B5CC1D3F26A800F016E1 /* ViewController.m in Sources */,
 				7E12B5C91D3F26A800F016E1 /* AppDelegate.m in Sources */,
+				7ED8126A1D406F5A0056CA37 /* myAnimation.m in Sources */,
 				7E12B5C61D3F26A800F016E1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +506,7 @@
 				7E12B5F01D3F26A800F016E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7E12B5F11D3F26A800F016E1 /* Build configuration list for PBXNativeTarget "大头针相关Tests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +515,7 @@
 				7E12B5F31D3F26A800F016E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7E12B5F41D3F26A800F016E1 /* Build configuration list for PBXNativeTarget "大头针相关UITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +524,7 @@
 				7E12B5F61D3F26A800F016E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
